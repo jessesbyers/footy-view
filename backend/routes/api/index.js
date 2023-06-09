@@ -14,9 +14,10 @@ router.use('/session', sessionRouter);
 router.use('/users', usersRouter);
 
 // TEST ROUTE
-router.post('/test', function(req, res) {
-    res.json({ requestBody: req.body });
-});
+// router.post('/test', function(req, res) {
+//     console.log(req)
+//     res.json({ requestBody: req.body });
+// });
 
 // TEST ROUTE: GET /api/set-token-cookie
 // router.get('/set-token-cookie', async (_req, res) => {
